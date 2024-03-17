@@ -19,21 +19,25 @@ import FrParent from "./components/FRParent";
 import PortalDom from "./components/PortalDom";
 import Hero from "./components/Hero";
 import ErrorBoundary from "./components/ErrorBoundary";
+import ClickCounts from "./components/ClickCounts";
+import HoverCounts from "./components/HoverCounts";
 function App() {
   return (
     <div className="App">
-        <ErrorBoundary>
-        <Hero heroName="sunshine1"/>
-        </ErrorBoundary>
+        <ClickCounts/>
+        <HoverCounts/>
+        {/*<ErrorBoundary>*/}
+        {/*<Hero heroName="sunshine1"/>*/}
+        {/*</ErrorBoundary>*/}
 
 
-        <ErrorBoundary>
-        <Hero heroName="sunshine2"/>
-        </ErrorBoundary>
+        {/*<ErrorBoundary>*/}
+        {/*<Hero heroName="sunshine2"/>*/}
+        {/*</ErrorBoundary>*/}
 
-        <ErrorBoundary>
-        <Hero heroName="joker"/>
-        </ErrorBoundary>
+        {/*<ErrorBoundary>*/}
+        {/*<Hero heroName="joker"/>*/}
+        {/*</ErrorBoundary>*/}
         {/*<PortalDom/>*/}
         {/*<FrParent/>*/}
         {/*<RefsDemo/>*/}
