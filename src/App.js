@@ -21,11 +21,17 @@ import Hero from "./components/Hero";
 import ErrorBoundary from "./components/ErrorBoundary";
 import ClickCounts from "./components/ClickCounts";
 import HoverCounts from "./components/HoverCounts";
+import User from "./components/User";
+import ComponentA from "./components/ComponentA";
 function App() {
   return (
     <div className="App">
-        <ClickCounts/>
-        <HoverCounts/>
+
+
+        <ComponentA/>
+        {/*<User render={(isLogin)=>isLogin?"sunshine":"Guest"}/>*/}
+        {/*<ClickCounts/>*/}
+        {/*<HoverCounts/>*/}
         {/*<ErrorBoundary>*/}
         {/*<Hero heroName="sunshine1"/>*/}
         {/*</ErrorBoundary>*/}

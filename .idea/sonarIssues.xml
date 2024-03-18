@@ -33,6 +33,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/ComponentA.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/ComponentB.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/ComponentC.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/components/Counter.js">
           <value>
             <set />
@@ -129,6 +144,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/components/StyleSheet.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/User.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/UserContext.js">
           <value>
             <set />
           </value>
