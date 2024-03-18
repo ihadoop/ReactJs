@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/public/index.html">
           <value>
             <set />
@@ -134,6 +139,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/components/PortalDom.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/PostForm.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/PostListComponent.js">
           <value>
             <set />
           </value>

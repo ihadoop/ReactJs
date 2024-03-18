@@ -23,12 +23,14 @@ import ClickCounts from "./components/ClickCounts";
 import HoverCounts from "./components/HoverCounts";
 import User from "./components/User";
 import ComponentA from "./components/ComponentA";
+import PostListComponent from "./components/PostListComponent";
+import PostForm from "./components/PostForm";
 function App() {
   return (
     <div className="App">
-
-
-        <ComponentA/>
+        <PostForm/>
+        {/*<PostListComponent/>*/}
+        {/*<ComponentA/>*/}
         {/*<User render={(isLogin)=>isLogin?"sunshine":"Guest"}/>*/}
         {/*<ClickCounts/>*/}
         {/*<HoverCounts/>*/}
