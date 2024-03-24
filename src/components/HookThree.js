@@ -1,8 +1,8 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 function HookThree(){
 
     const [username,setUserName]  =useState({firstName:'',lastName:''})
-
+    useEffect(()=>{},[])
     return <div>
            <label>first Name:</label>
         <input type='text' value={username.firstName} onChange={(e)=>setUserName({...username,firstName: e.target.value})}/>
