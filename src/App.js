@@ -25,10 +25,14 @@ import User from "./components/User";
 import ComponentA from "./components/ComponentA";
 import PostListComponent from "./components/PostListComponent";
 import PostForm from "./components/PostForm";
+import HookCounter from "./components/HookCounter";
+import HookCounter2 from "./components/HookCounter2";
 function App() {
   return (
     <div className="App">
-        <PostForm/>
+        <HookCounter2/>
+        {/*<HookCounter2/>*/}
+        {/*<PostForm/>*/}
         {/*<PostListComponent/>*/}
         {/*<ComponentA/>*/}
         {/*<User render={(isLogin)=>isLogin?"sunshine":"Guest"}/>*/}
