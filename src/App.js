@@ -28,10 +28,12 @@ import PostForm from "./components/PostForm";
 import HookCounter from "./components/HookCounter";
 import HookCounter2 from "./components/HookCounter2";
 import HookThree from "./components/HookThree";
+import HookMouse from "./components/HookMouse";
 function App() {
   return (
     <div className="App">
-<HookThree/>
+        <HookMouse/>
+{/*<HookThree/>*/}
         {/*<HookCounter2/>*/}
         {/*<HookCounter2/>*/}
         {/*<PostForm/>*/}
